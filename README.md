@@ -15,7 +15,7 @@ I am building a todolist in React.js to learn more about it, following a Scrimba
 
 The create react app creates an entire folder structure from which you can begin to work. 
 
-Inside the **'public'** folder there is one **index.html**. This is the only html page: React is a single page application framework.  This html page has to exist with this exact name and contains a **<div id='root'></div>**. All of the react output is rendered through this div - activated by index.js
+Inside the **'public'** folder there is one **index.html**. This is the only html page: React is a single page application framework.  This html page has to exist with this exact name and contains a **div element with id='root'**. All of the react output is rendered through this div - activated by index.js
 
 Inside the **'src'** folder there is the **index.js** page. This has to exist with this exact name, contains the **javascript entrypoint**, and loads the App.js file.
 
@@ -29,10 +29,8 @@ The **App.js** is written with a capital - a convention is to write all React co
 
     function App() {
         return(
-            <div>
             Contains the content, you cannot have more than 1 element here so wrap inside a div.
             This usually contains a 'table of content', referring to other components that are again in another js file (structure clearly, make a component subdirectory) with the same structure as the app.js file.  
-            </div>
         )
     }
 
