@@ -44,3 +44,7 @@ You can add styling to your JSX **elements** similar as in html. Do not add them
 
 - Watch out! Use className in stead of class!
 - create an App.css file that styles the class
+
+# JSX to Javascript and back
+
+The JSX gets read as HTML, but I want a personal greeting... Therefor I want to use Javascript variables, and I can to this by placing them between { ... }
