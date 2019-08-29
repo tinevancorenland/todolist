@@ -38,3 +38,5 @@ The **App.js** is written with a capital - a convention is to write all React co
 
 4. Export default App: makes it available for the other js files
 
+![React tree structure](public/React-tree-structure.jpg)
+
