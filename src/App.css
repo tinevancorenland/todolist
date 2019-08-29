@@ -10,12 +10,14 @@
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid;
+  background-color: whitesmoke;
 }
 
 .todolist {
   padding: 20px;
   margin: 20px 60px;
   background-color: salmon;
+  border-radius: 5px;
 }
 
 .todolisttitle {
@@ -34,12 +36,19 @@
 .jokes {
   border-top: 2px solid salmon;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-evenly;
 }
 
+.joketitle {
+  padding-top: 20px;
+  text-align: center;
+}
+
 .joke {
-  margin: 20px;
+  margin: 15px;
   padding: 10px;
   border: 1px solid;
+  border-radius: 5px;
+  background-color: whitesmoke;
 }
