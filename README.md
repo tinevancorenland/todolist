@@ -1,8 +1,8 @@
-## Todolist
+# Todolist
 
 I am building a todolist in React.js to learn more about it, following a Scrimba course. 
 
-# Setup
+## 1. Setup
 
 1. Install Node (>= 8.10) and npm
 2. VS code terminal, run:
@@ -11,7 +11,7 @@ I am building a todolist in React.js to learn more about it, following a Scrimba
     - npm start: runs the app in development mode on localhost 3000
 3. cd todolist
 
-# Folder Structure
+## 2. Folder Structure
 
 The create react app creates an entire folder structure from which you can begin to work. 
 
@@ -21,7 +21,7 @@ Inside the **'src'** folder there is the **index.js** page. This has to exist wi
 
 The **App.js** is written with a capital - a convention is to write all React components with a capital letter. It contains the function App that return all react components - sort of a table of contents with all further elements. It gets rendered to your screen through the 'root' div. 
 
-# Start working on App.js
+## 3. File Structure App.js
 
 1. import React from 'react': this enables the system to read your JSX (this is the almost-html code you write in the js file)
 2. import ReactDOM from 'react-dom'
@@ -38,7 +38,15 @@ The **App.js** is written with a capital - a convention is to write all React co
 
 ![React tree structure](public/React-tree-structure.jpg)
 
-# Styling
+## 4. Start creating components
+
+### Structure
+
+1. import React
+2. function 'component name'
+3. export default 'component name'
+
+### Styling
 
 You can add styling to your JSX **elements** similar as in html. Do not add them to the components.
 
@@ -46,7 +54,7 @@ You can add styling to your JSX **elements** similar as in html. Do not add them
 - create an App.css file that styles the class
 - inline styling never a good idea... clutters...
 
-# JSX to Javascript and back
+### JSX to Javascript and back
 
 The JSX gets read as HTML, but I want a personal greeting... Therefor I want to use Javascript variables, and I can to this by placing them between { ... }
 
