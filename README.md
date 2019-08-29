@@ -9,7 +9,6 @@ I am building a todolist in React.js to learn more about it, following a Scrimba
     - npx create-react-app todolist OR npm init react-app todolist
     - cd todolist
     - npm start: runs the app in development mode on localhost 3000
-3. cd todolist
 
 ## 2. Folder Structure
 
