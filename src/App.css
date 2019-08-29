@@ -13,16 +13,20 @@
 }
 
 .todolist {
-  padding: 10px;
+  padding: 20px;
   margin: 20px 60px;
-  border: 1px grey dotted;
+  background-color: salmon;
 }
 
 .todolisttitle {
   text-align: center;
   padding: 10px;
+  border-bottom: 1px dashed;
+  margin-bottom: 10px;
 }
 
 .todoitem {
-  padding: 5px;
+  padding: 15px;
+  margin: 5px;
+  background-color: whitesmoke;
 }
