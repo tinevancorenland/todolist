@@ -38,3 +38,9 @@ The **App.js** is written with a capital - a convention is to write all React co
 
 ![React tree structure](public/React-tree-structure.jpg)
 
+# Styling
+
+You can add styling to your JSX **elements** similar as in html. Do not add them to the components.
+
+- Watch out! Use className in stead of class!
+- create an App.css file that styles the class
