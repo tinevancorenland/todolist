@@ -34,4 +34,12 @@
 .jokes {
   border-top: 2px solid salmon;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.joke {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid;
 }
