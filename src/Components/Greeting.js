@@ -19,7 +19,7 @@ function Greeting() {
     }
 
     return (
-        <div>
+        <div className="greeting">
             <h2>Good {timeOfDay}, {name}</h2>
             <p>It is {months[date.getMonth()]}, {date.getDate()} of {date.getFullYear()}: a fine day for learning. </p>
         </div>

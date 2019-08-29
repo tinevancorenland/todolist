@@ -2,9 +2,8 @@ import React from 'react'
 
 function TodoItem() {
     return(
-        <div>
-            <input type="checkbox"/>
-            <p>do this thing</p>
+        <div className="todoitem">
+            <label><input className="checkbox" type="checkbox"/>  Do this thing</label>
         </div>
     )
 }

@@ -4,8 +4,8 @@ import TodoItem from './TodoItem'
 
 function Todolist() {
   return (
-    <div>
-      <h3>Whatchamahavetodotoday?</h3>
+    <div className="todolist">
+      <h3 className="todolisttitle">Whatchamahavetodotoday?</h3>
       <TodoItem />
       <TodoItem />
       <TodoItem />
