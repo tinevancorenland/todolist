@@ -4,14 +4,15 @@ import React from 'react';
 function Todolist() {
   return (
     <div>
+      <h3>Whatchamahavetodotoday?</h3>
       <input type="checkbox"/>
-      <p>todo one</p>
+      <p>this thing</p>
       <input type="checkbox"/>
-      <p>todo two</p>
+      <p>and also this one</p>
       <input type="checkbox"/>
-      <p>todo three</p>
+      <p>this also</p>
       <input type="checkbox"/>
-      <p>todo four</p>
+      <p>trynalearnsomereactaswell</p>
     </div>
   );
 }
