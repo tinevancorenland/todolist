@@ -30,3 +30,8 @@
   margin: 5px;
   background-color: whitesmoke;
 }
+
+.jokes {
+  border-top: 2px solid salmon;
+  display: flex;
+}
