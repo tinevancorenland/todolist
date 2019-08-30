@@ -5,7 +5,7 @@ import todoData from './todoData'
 
 function Todolist() {
 
-  console.log(todoData)
+  // console.log(todoData)
 
   const TodoComponent = todoData.map(todo => <TodoItem key={todo.id} content={todo.content} />)
 
