@@ -58,3 +58,7 @@ You can add styling to your JSX **elements** similar as in html. Do not add them
 The JSX gets read as HTML, but I want a personal greeting... Therefor I want to use Javascript variables, and I can to this by placing them between { ... }
 
 The variables are defined inside the function, above the return statement. 
+
+### Props
+
+Props are arguments passed into components, through HTML attributes. 
