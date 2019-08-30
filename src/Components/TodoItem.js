@@ -1,9 +1,9 @@
 import React from 'react'
 
-function TodoItem() {
+function TodoItem(props) {
     return(
         <div className="todoitem">
-            <label><input type="checkbox"/>   Do this thing</label>
+            <label><input type="checkbox"/>    {props.content}</label>
         </div>
     )
 }
