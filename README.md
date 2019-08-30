@@ -62,3 +62,7 @@ The variables are defined inside the function, above the return statement.
 ### Props
 
 Props are arguments passed into components, through HTML attributes. 
+
+### Class based components
+
+![FunctionalVersusClassBasedComponent](/public/FunctionalVsClassbasedComponent.jpg)
